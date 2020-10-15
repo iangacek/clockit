@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background: #40406a;
+  color: #00f;
+}
+
+.Nav {
+  background: #313157;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Clock {
+  width: 100%;
+  height: 400px;
+  background: #444473;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Clock h1 {
+  font-size: 100px;
+  color: #b3b3ff;
+}
+.Clock p {
+  font-size: 100px;
+}
+
+.Country-Container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  margin: 50px auto;
+}
+.Country-Container div {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(85,85,85,0.333);
+}
+.Country-Container div h3 {
+  color: #b3b3ff;
+}
+

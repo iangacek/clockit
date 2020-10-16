@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "webpack -p",
-    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "start-all": "webpack-dev-server --open --mode development --host 10.0.0.43",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
     "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "keywords": [],
